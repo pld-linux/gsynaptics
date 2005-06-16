@@ -19,7 +19,7 @@ BuildRequires:	libgnomeui-devel
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
 Requires:	X11-synaptics
-ExcludeArch:    sparc sparc64
+ExcludeArch:	sparc sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
