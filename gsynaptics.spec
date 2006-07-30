@@ -12,6 +12,7 @@ Patch0:		%{name}-desktop.patch
 URL:		http://gsynaptics.sourceforge.jp/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	gettext-devel >= 0.15
 BuildRequires:	gtk+2-devel >= 2:2.6.0
 BuildRequires:	intltool
 BuildRequires:	libglade2-devel
