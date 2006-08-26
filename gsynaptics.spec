@@ -19,7 +19,7 @@ BuildRequires:	libglade2-devel
 BuildRequires:	libgnomeui-devel
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
-Requires:	X11-synaptics
+Requires:	xorg-driver-input-synaptics
 ExcludeArch:	sparc sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -39,7 +39,7 @@ touchpada Synaptics.
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
-%{__autoheader}
+#%{__autoheader}
 %{__automake}
 %configure
 %{__make}
