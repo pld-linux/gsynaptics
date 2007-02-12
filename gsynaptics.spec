@@ -1,5 +1,5 @@
 Summary:	GNOME tool for Synaptics touchpad driver
-Summary(pl):	Narzêdzie GNOME dla sterownika Synaptics
+Summary(pl.UTF-8):   NarzÄ™dzie GNOME dla sterownika Synaptics
 Name:		gsynaptics
 Version:	0.9.7
 Release:	2
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 GSynaptics is a setting tool for Synaptics touchpad driver.
 
-%description -l pl
-GSynaptics jest narzêdziem s³u¿±cym do zmieniania ustwieñ sterownika
+%description -l pl.UTF-8
+GSynaptics jest narzÄ™dziem sÅ‚uÅ¼Ä…cym do zmieniania ustwieÅ„ sterownika
 touchpada Synaptics.
 
 %prep
