@@ -1,5 +1,5 @@
 Summary:	GNOME tool for Synaptics touchpad driver
-Summary(pl.UTF-8):   Narzędzie GNOME dla sterownika Synaptics
+Summary(pl.UTF-8):	Narzędzie GNOME dla sterownika Synaptics
 Name:		gsynaptics
 Version:	0.9.7
 Release:	2
