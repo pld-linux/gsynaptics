@@ -1,13 +1,13 @@
 Summary:	GNOME tool for Synaptics touchpad driver
 Summary(pl.UTF-8):	Narzędzie GNOME dla sterownika Synaptics
 Name:		gsynaptics
-Version:	0.9.7
-Release:	2
+Version:	0.9.11
+Release:	1
 Epoch:		0
 License:	GPL v.2
 Group:		Applications
-Source0:	http://osdn.dl.sourceforge.jp/gsynaptics/20002/%{name}-%{version}.tar.gz
-# Source0-md5:	f5291f8a14bc0be513add80aac670bc3
+Source0:	http://osdn.dl.sourceforge.jp/gsynaptics/23764/%{name}-%{version}.tar.gz
+# Source0-md5:	294729b825f8e7eb9b6b68656684a70e
 Patch0:		%{name}-desktop.patch
 URL:		http://gsynaptics.sourceforge.jp/
 BuildRequires:	autoconf
@@ -61,3 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}
 %{_desktopdir}/*.desktop
 %{_pixmapsdir}/*.png
+%{_datadir}/gnome/autostart/gsynaptics-init.desktop
+%{_mandir}/man1/gsynaptics-init.1*
+%{_mandir}/man1/gsynaptics.1*
