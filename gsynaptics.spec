@@ -41,7 +41,7 @@ touchpada Synaptics.
 
 %build
 %{__intltoolize}
-%{__glib_gettextize}
+#%{__glib_gettextize}
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
